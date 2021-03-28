@@ -1,0 +1,74 @@
+#anuncio {
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 0.5px;
+}
+
+.logotipo {
+  height: 80px;
+}
+
+.botones-menu {
+  margin-left: 210px;
+}
+
+.iconos-menu {
+  margin-right: 50px;
+}
+
+.espacio-icono {
+  margin-right: 20px;
+}
+
+.marcas {
+  text-align: center;
+  flex-wrap: none;
+}
+
+.acomodo {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.acomodo2 {
+  margin-top: 120px;
+}
+
+.espaciosec {
+  margin-top: 50px;
+  padding: 45px;
+}
+
+.quiensomos {
+  font-size: 21px;
+}
+
+footer {
+  background-color: #1A1A1A;
+  height: 60%;
+  color: white;
+  padding: 35px;
+}
+
+.main1 {
+  display: flex;
+  margin: 50px auto;
+}
+
+a img:hover {
+  color: #fff;
+}
+
+.redes-footer {
+  width: 100%;
+  height: auto;
+}
+.redes-footer img {
+  width: 10%;
+  height: auto;
+}
+
+/*# sourceMappingURL=output.css.map */
