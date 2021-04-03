@@ -56,7 +56,7 @@ width: 20px;
 
 footer {
 	background-color:#1A1A1A;
-	height: 60%;
+	height: auto;
   color: white;
   padding: 35px;
 }
@@ -81,10 +81,12 @@ a img:hover {
 }
 
  .titulos {
+     margin-top: 30px;
      text-align: center;
  }
 
   .mapas {
+      margin-top: 30px;
       padding-left: 80px;
       
   }
@@ -96,67 +98,67 @@ a img:hover {
     border:0;
 }
  
-.image1 {
-    position:relative;
-    background: url("universo.jpg") no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px;
+// .image1 {
+//     position:relative;
+//     background: url("universo.jpg") no-repeat fixed;
+//     background-position: center center;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//     min-height: 500px;
      
-}
+// }
  
-.image2 {
-    position:relative;
-    background: url("universo2.jpg") no-repeat fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 500px; 
-}
+// .image2 {
+//     position:relative;
+//     background: url("https://cdn.shopify.com/s/files/1/0085/7613/9324/files/Logo_Square_720x.png?v=1551486661") no-repeat fixed;
+//     background-position: center center;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//     min-height: 500px; 
+// }
  
 .image3 {
     position:relative;
-    background: url("universo3.jpg") no-repeat fixed;
+    background: url("https://cdn.shopify.com/s/files/1/0085/7613/9324/files/Logo_Square_720x.png?v=1551486661") no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 500px; 
+    min-height: 350px; 
 }
  
-h1 {
-    color: #fff;
-    font-size: 80px;
-    text-align:center;
-    font-weight: bold;
-    margin: 0 auto;
-    width: 800px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -20%;
-    margin-left: -400px;
-    opacity:0.8;
-}
+// h1 {
+//     color: #fff;
+//     font-size: 80px;
+//     text-align:center;
+//     font-weight: bold;
+//     margin: 0 auto;
+//     width: 800px;
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     margin-top: -20%;
+//     margin-left: -400px;
+//     opacity:0.8;
+// }
  
-h2{
-    color: #fff;
-    font-size: 55px;
-    text-align:center;
-    margin: 0 auto;
-    width: 800px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -400px;
-    opacity:0.8;
-}
+// h2{
+//     color: #fff;
+//     font-size: 55px;
+//     text-align:center;
+//     margin: 0 auto;
+//     width: 800px;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     margin-left: -400px;
+//     opacity:0.8;
+// }
  
 .content {
     width: 100%;
