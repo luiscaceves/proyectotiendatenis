@@ -26,6 +26,12 @@
 .marcas {
   text-align: center;
   flex-wrap: none;
+  max-width: 20%;
+  margin: 0px;
+}
+
+.marcas img {
+  width: 20px;
 }
 
 .acomodo {
@@ -69,6 +75,10 @@ a img:hover {
 .redes-footer img {
   width: 10%;
   height: auto;
+}
+
+.titulos {
+  text-align: center;
 }
 
 /*# sourceMappingURL=output.css.map */

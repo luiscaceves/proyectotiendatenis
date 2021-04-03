@@ -28,6 +28,11 @@
 .marcas {
     text-align: center;
     flex-wrap: none;
+    max-width: 20%;
+    margin: 0px;
+}
+.marcas img {
+width: 20px;
 }
 
 .acomodo {
@@ -74,3 +79,7 @@ a img:hover {
          height: auto;
      }
 }
+
+ .titulos {
+     text-align: center;
+ }
