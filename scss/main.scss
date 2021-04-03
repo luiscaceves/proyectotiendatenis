@@ -83,3 +83,89 @@ a img:hover {
  .titulos {
      text-align: center;
  }
+
+  .mapas {
+      padding-left: 80px;
+      
+  }
+
+
+  body {
+    margin:0;
+    padding:0;
+    border:0;
+}
+ 
+.image1 {
+    position:relative;
+    background: url("universo.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+     
+}
+ 
+.image2 {
+    position:relative;
+    background: url("universo2.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px; 
+}
+ 
+.image3 {
+    position:relative;
+    background: url("universo3.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px; 
+}
+ 
+h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align:center;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 800px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -400px;
+    opacity:0.8;
+}
+ 
+h2{
+    color: #fff;
+    font-size: 55px;
+    text-align:center;
+    margin: 0 auto;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    opacity:0.8;
+}
+ 
+.content {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    background: #FFF;
+    z-index:2;
+ 
+}
