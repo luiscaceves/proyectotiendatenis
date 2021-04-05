@@ -40,3 +40,9 @@ ALTER TABLE items
 
 ALTER TABLE items
     MODIFY id INT(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 1;
+
+
+
+
+    CREATE USER 'webuser'@'localhost' IDENTIFIED BY 'RMs1stemas';
+    GRANT ALL PRIVILEGES ON * . * TO 'webuser'@'localhost';
