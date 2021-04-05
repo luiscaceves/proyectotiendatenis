@@ -46,3 +46,6 @@ ALTER TABLE items
 
     CREATE USER 'webuser'@'localhost' IDENTIFIED BY 'RMs1stemas';
     GRANT ALL PRIVILEGES ON * . * TO 'webuser'@'localhost';
+
+    ALTER TABLE items
+    CHANGE subcatecory subcategory VARCHAR(20);

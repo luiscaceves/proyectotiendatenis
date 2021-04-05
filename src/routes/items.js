@@ -22,4 +22,10 @@ router.post('/add', async (req, res) => {
     res.send('recieved');
 });
 
+router.get('/', async (req, res) => {
+    const items = await pool.query('SELECT * FROM items');
+    console.log(items);
+    res.render('items/list', {items});
+});
+
 module.exports = router;
