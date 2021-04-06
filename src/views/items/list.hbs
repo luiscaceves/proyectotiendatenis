@@ -1,7 +1,18 @@
 <div class="container p-4">
     <div class="row">
         {{#each items}}
-            {{this}}
+            <div class="col-md-3">
+                <div class="card-text-center">
+                    <div class="card-body">
+                        <h3>{{model}}</h3>
+                        <h4>{{family}}</h4>
+                        <h4>{{category}}</h4>
+                        <h4>{{subcategory}}</h4>
+                        <img src="{{img}}">
+                        <p class="m-2">{{description}} </p>
+                    </div>
+                </div>
+            </div>
         {{/each}}
     </div>
 </div>

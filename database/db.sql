@@ -28,7 +28,7 @@ CREATE TABLE items(
     brand VARCHAR(20) NOT NULL,
     family VARCHAR(20),
     category VARCHAR(20),
-    subcatecory VARCHAR(20),
+    subcategory VARCHAR(20),
     img VARCHAR(255) NOT NULL,
     user_id INT(11),
     created_at timestamp NOT NULL DEFAULT current_timestamp,
@@ -49,3 +49,7 @@ ALTER TABLE items
 
     ALTER TABLE items
     CHANGE subcatecory subcategory VARCHAR(20);
+
+
+    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'RMs1stemas';
+
