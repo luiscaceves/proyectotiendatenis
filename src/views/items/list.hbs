@@ -10,11 +10,18 @@
                         <h4>{{subcategory}}</h4>
                         <img src="{{img}}">
                         <p class="m-2">{{description}} </p>
-                        <a href="" class="btn btn-danger">Borrar</a>
-                        <a href="" class="btn btn-secondary">Editar</a>
+                        <a href="/items/delete/{{id}}" class="btn btn-danger">Borrar</a>
+                        <a href="/items/edit/{{id}}" class="btn btn-secondary">Editar</a>
                     </div>
                 </div>
             </div>
+        {{else}}
+        <div class="col-md-4 mx-auto">
+            <div class="card card-body text-center">
+                <p>No hay articulos</p>
+                <a href="/items/add">Agrega un articulo</a>
+            </div>
+        </div>
         {{/each}}
     </div>
 </div>
