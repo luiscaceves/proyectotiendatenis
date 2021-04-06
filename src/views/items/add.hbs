@@ -1,0 +1,98 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/items/add" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="model" placeholder="Modelo" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input list="family" class="form-control" name="family" placeholder="Familia">
+                            <datalist id="family">
+                                <option value="Accesorios">
+                                <option value="Calzado">
+                                <option value="Ropa">
+                            </datalist>
+                        </div>
+                        <div class="form-group">
+                            <input list="brand" class="form-control" name="brand" placeholder="Marca">
+                            <datalist id="brand">
+                                <option value="47">
+                                <option value="Adidas">
+                                <option value="Asics">
+                                <option value="Billabong">
+                                <option value="C1rca">
+                                <option value="Converse">
+                                <option value="DC">
+                                <option value="Everlast">
+                                <option value="EVF">
+                                <option value="Fila">
+                                <option value="Jansport">
+                                <option value="Lotto">
+                                <option value="Mitchel & Ness">
+                                <option value="New era">
+                                <option value="Nike">
+                                <option value="Puma">
+                                <option value="Reebok">
+                                <option value="Vans">   
+                            </datalist>
+                        </div>
+                        <div class="form-group">
+                            <input list="category" class="form-control" name="category" placeholder="Categoria">
+                            <datalist id="category">
+                                <option value="Basquetbol">
+                                <option value="Beisbol">
+                                <option value="Box">
+                                <option value="Correr">
+                                <option value="Entrenamiento">
+                                <option value="Equipamiento">
+                                <option value="Escolar">
+                                <option value="Futbol">
+                                <option value="Moda">
+                                <option value="Natacion">
+                                <option value="Skateboarding">
+                                <option value="Tennis">
+                                <option value="Voleibol">                               
+                            </datalist>
+                        </div>
+                        <div class="form-group">
+                            <input list="subcategory" class="form-control" name="subcategory" placeholder="Subcategoria">
+                            <datalist id="subcategory">
+                                <option value="Agujetas">
+                                <option value="Balon">
+                                <option value="Banda">
+                                <option value="Beanie">
+                                <option value="Bikini">
+                                <option value="Blusa">
+                                <option value="Bolsa">
+                                <option value="Bomba">
+                                <option value="Bota">
+                                <option value="Botella">
+                                <option value="Bufanda">
+                                <option value="Calcetas">
+                                <option value="Camisa">
+                                <option value="Cangurera">
+                                <option value="Cartera">
+                                <option value="Chamarra">
+                                <option value="Cinturon">
+                                <option value="Espinilleras">   
+                            </datalist>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="description" rows="8" class="form-control" placeholder="Descripcion"></textarea>
+                        </div>
+                         <div class="form-group">
+                            <input type="url" class="form-control" name="img" placeholder="URL imagen">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block">
+                                Guardar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
